@@ -1,0 +1,73 @@
+#fp-nav ul li a.active span
+.fp-slidesNav ul li a.active span
+#fp-nav ul li:hover a.active span
+.fp-slidesNav ul li:hover a.active span
+	background: rgba(255,255,255,0.5)
+	border: 1px solid #fff
+	border-radius: 50px
+	height: 17px
+	width: 17px
+	margin: -8.5px 0px 0px -6px
+
+#fp-nav ul li a span
+.fp-slidesNav ul li a span
+	background: transparent
+	border: 1px solid #fff
+	border-radius: 50px
+	height: 13px
+	width: 13px
+	margin: -6px 2px 2px -4px
+
+#fp-nav ul li:hover a span
+.fp-slidesNav ul li:hover a span
+	height: 17px
+	width: 17px
+	margin: -8px 0 0 -6px
+
+#fp-nav ul li
+.fp-slidesNav ul li
+	margin: 15px
+
+
+/*Линии на бэкграунде*/
+#fp-nav ul li:first-of-type:hover::before
+#fp-nav ul li:last-of-type:hover::after
+.fp-slidesNav ul li:first-of-type:hover::before
+.fp-slidesNav ul li:last-of-type:hover::after
+	//height: 16px
+	//width: 1px
+
+#fp-nav ul li:hover::before
+#fp-nav ul li:hover::after
+.fp-slidesNav ul li:hover::before
+.fp-slidesNav ul li:hover::after
+	//height: 15px
+	//width: 1px
+
+#fp-nav ul li:first-of-type::before
+.fp-slidesNav ul li:first-of-type::before
+	top: -18px
+	height: 18px
+	width: 1px
+
+#fp-nav ul li:last-of-type::after
+.fp-slidesNav ul li:last-of-type::after
+	//top: -18px
+	height: 18px
+	width: 1px
+
+#fp-nav ul li::before
+.fp-slidesNav ul li::before
+	top: -10px
+
+#fp-nav ul li::before
+#fp-nav ul li::after
+.fp-slidesNav ul li::before
+.fp-slidesNav ul li::after
+	content: ''
+	display: block
+	position: absolute
+	background-color: rgba(255,255,255,0.5)
+	left: 9px
+	height: 9px
+	width: 1px

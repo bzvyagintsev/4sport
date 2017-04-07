@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'ruble';
+	src: url('ruble.eot');
+	src: url('ruble.ttf') format('truetype');
+	src: local('ruble'), url('ruble.woff') format('woff'), url('ruble.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+		
+.ruble {
+	font-family:ruble;
+	}

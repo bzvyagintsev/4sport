@@ -1,0 +1,19 @@
+.gallery {
+  width: 100%;
+  position: relative;
+}
+.gallery__item {
+  display: block;
+  width: calc((100% / 3) - 5px);
+  float: left;
+  margin-left: 5px;
+}
+.gallery__item img {
+  width: 100%;
+  height: auto;
+}
+@media all and (max-width: 992px) {
+  .gallery__item {
+    width: calc((100% / 2) - 5px);
+  }
+}

@@ -1,0 +1,74 @@
+$green = #c2db76
+
+.modal
+    display: none /* Hidden by default */
+    position: fixed /* Stay in place */
+    z-index: 999 /* Sit on top */
+    left: 0
+    top: 0
+    width: 100% /* Full width */
+    height: 100% /* Full height */
+    overflow: hidden /* Enable scroll if needed */
+    background-color: rgb(0,0,0) /* Fallback color */
+    background-color: rgba(0,0,0,0.5) /* Black w/ opacity */
+
+
+/* Modal Content/Box */
+.modal-content
+    position: relative
+    background-color: #313237
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6)
+    color: #fff
+    margin: 5% auto /* 15% from the top and centered */
+    padding: 30px
+    width: 90% 
+    max-width: 500px
+    text-align: center
+    .modal__header
+        margin-bottom: 50px
+        h3
+            text-align: center
+            text-transform: uppercase
+            margin-bottom: 15px
+        p
+            text-align: center
+            margin-top: 10px
+            color: #bfbfbf
+        img
+            width: 150px
+    input
+        &[placeholder]
+            color: #fff
+    input
+        color: #fff
+        font-size: 18px
+        background: transparent
+        height 36px
+        border: none
+        outline: none
+        border-bottom: 2px solid #bfbfbf
+        margin-bottom: 15px
+        &:hover
+        &:focus
+        &:active
+            color: #fff
+            border-bottom: 2px solid $green
+    a
+        margin: 30px auto 15px auto
+        padding: 0
+
+
+/* The Close Button */
+.close
+    position: absolute
+    top: 5px
+    right: 15px
+    color: $green
+    font-size: 28px
+    font-weight: bold
+
+.close:hover,
+.close:focus
+    color: #fff
+    text-decoration: none
+    cursor: pointer
