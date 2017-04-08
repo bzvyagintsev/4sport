@@ -1,0 +1,3 @@
+Host: https://4sportshow.ru/
+User-agent: *
+Disallow: 
